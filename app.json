@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Chowopa",
+    "slug": "chowopa",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.3.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.mobidonia.foodtiger"
+    },
+    "android": {
+      "package": "com.mobidonia.foodtiger"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
